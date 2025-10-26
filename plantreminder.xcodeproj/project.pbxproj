@@ -29,20 +29,31 @@
 		8995A6532EACE299002EA88A /* plantreminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plantreminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		899D3D702EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				plantreminder.swift,
+			);
+			target = 8995A6482EACE299002EA88A /* plantreminderTests */;
+		};
+		899D3D712EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				plantreminder.swift,
+			);
+			target = 8995A6522EACE299002EA88A /* plantreminderUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8995A63E2EACE297002EA88A /* plantreminder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				899D3D702EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderTests" target */,
+				899D3D712EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderUITests" target */,
+			);
 			path = plantreminder;
-			sourceTree = "<group>";
-		};
-		8995A64C2EACE299002EA88A /* plantreminderTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = plantreminderTests;
-			sourceTree = "<group>";
-		};
-		8995A6562EACE299002EA88A /* plantreminderUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = plantreminderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				8995A63E2EACE297002EA88A /* plantreminder */,
-				8995A64C2EACE299002EA88A /* plantreminderTests */,
-				8995A6562EACE299002EA88A /* plantreminderUITests */,
 				8995A63D2EACE297002EA88A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +139,6 @@
 			dependencies = (
 				8995A64B2EACE299002EA88A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8995A64C2EACE299002EA88A /* plantreminderTests */,
-			);
 			name = plantreminderTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +158,6 @@
 			);
 			dependencies = (
 				8995A6552EACE299002EA88A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8995A6562EACE299002EA88A /* plantreminderUITests */,
 			);
 			name = plantreminderUITests;
 			packageProductDependencies = (
@@ -390,8 +393,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C693YHBWPU;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -432,8 +446,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C693YHBWPU;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
