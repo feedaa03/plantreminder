@@ -33,14 +33,14 @@
 		899D3D702EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				plantreminder.swift,
+				View/plantreminder.swift,
 			);
 			target = 8995A6482EACE299002EA88A /* plantreminderTests */;
 		};
 		899D3D712EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				plantreminder.swift,
+				View/plantreminder.swift,
 			);
 			target = 8995A6522EACE299002EA88A /* plantreminderUITests */;
 		};
