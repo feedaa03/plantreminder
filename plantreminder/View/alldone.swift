@@ -1,3 +1,11 @@
+//
+//  AllDoneView.swift
+//  plantreminder
+//
+//  Created by Feda  on 28/10/2025.
+//
+
+
 import SwiftUI
 
 struct AllDoneView: View {
@@ -62,7 +70,7 @@ struct AllDoneView: View {
             .padding(.trailing, 30)
         }
         .sheet(isPresented: $showSheet) {
-            PlantReminderView(onSaved: {
+            PlantReminderView(onSaved: { 
                 // After adding a plant, dismiss the All Done page to return to the list
                 dismiss()
             })

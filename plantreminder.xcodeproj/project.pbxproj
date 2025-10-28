@@ -29,30 +29,9 @@
 		8995A6532EACE299002EA88A /* plantreminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plantreminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		899D3D702EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				View/plantreminder.swift,
-			);
-			target = 8995A6482EACE299002EA88A /* plantreminderTests */;
-		};
-		899D3D712EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				View/plantreminder.swift,
-			);
-			target = 8995A6522EACE299002EA88A /* plantreminderUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8995A63E2EACE297002EA88A /* plantreminder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				899D3D702EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderTests" target */,
-				899D3D712EAE04D9004A1FED /* Exceptions for "plantreminder" folder in "plantreminderUITests" target */,
-			);
 			path = plantreminder;
 			sourceTree = "<group>";
 		};

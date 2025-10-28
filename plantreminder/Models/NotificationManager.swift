@@ -1,12 +1,16 @@
+//
+//  NotificationManager.swift
+//  plantreminder
+//
+//  Created by Feda  on 28/10/2025.
+//
+
+
 import Foundation
 import UserNotifications
 
-protocol NotificationScheduling {
-    func scheduleWaterReminder(in seconds: TimeInterval)
-}
-
-struct NotificationManager: NotificationScheduling {
-    func scheduleWaterReminder(in seconds: TimeInterval = 10) {
+struct NotificationManager {
+    static func scheduleWaterReminder(in seconds: TimeInterval = 10) {
         let center = UNUserNotificationCenter.current()
         // Request authorization first (idempotent; system will only prompt once)
         center.getNotificationSettings { settings in
@@ -25,7 +29,7 @@ struct NotificationManager: NotificationScheduling {
         func schedule(seconds: TimeInterval) {
             let content = UNMutableNotificationContent()
             content.title = "Plant Reminder"
-            content.body = "Hey!, let's water your plant"
+            content.body = "Hey! let's water your plant"
             content.sound = .default
 
             let trigger = UNTimeIntervalNotificationTrigger(timeInterval: max(1, seconds), repeats: false)

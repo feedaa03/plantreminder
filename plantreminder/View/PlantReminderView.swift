@@ -1,4 +1,13 @@
+//
+//  PlantReminderView.swift
+//  plantreminder
+//
+//  Created by Feda  on 28/10/2025.
+//
+
+
 import SwiftUI
+import Foundation
 
 struct PlantReminderView: View {
     var onSaved: () -> Void = {}
@@ -34,7 +43,7 @@ struct PlantReminderView: View {
                             guard !name.isEmpty else { return }
                             reminderVM.save(to: store) {
                                 onSaved()
-                 }
+                            }
                             dismiss()
                         })
                     }
@@ -113,20 +122,6 @@ struct GlassTextField: View {
     var title: String?
     var placeholder: String
     var icon: String?
-
-    init(text: Binding<String>, title: String? = nil, placeholder: String, icon: String? = nil) {
-        self._text = text
-        self.title = title
-        self.placeholder = placeholder
-        self.icon = icon
-    }
-
-    init(text: String, title: String? = nil, placeholder: String, icon: String? = nil) {
-        self._text = .constant(text)
-        self.title = title
-        self.placeholder = placeholder
-        self.icon = icon
-    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
