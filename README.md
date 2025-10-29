@@ -33,6 +33,12 @@ My Plants App provides a streamlined experience for users to monitor their plant
 6. Celebrate  when all your plants are happy!
 
 --- 
+## app icon
+
+
+<img width="100" height="150" alt="image" src="https://github.com/user-attachments/assets/0032ee8f-3389-41d6-83d7-94969b1f31b1" />
+
+
 ## Screenshots 
 <img width="934" height="254" alt="image" src="https://github.com/user-attachments/assets/e030ad98-6a8b-4a6a-a0c8-816bde6a2504" />
 
